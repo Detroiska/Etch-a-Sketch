@@ -1,0 +1,33 @@
+body {
+	padding: 6vh 3vw;
+}
+
+.container {
+	display: flex;
+	border: 8px solid black;
+	border-radius: 8px;
+	height: 40vh;
+	width: 40vh;
+	margin: 0 auto;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	background-color: black;
+}
+
+.tile {
+	background-color: white;
+	flex: 1;
+}
+
+#gridSizeButton {
+	font-family: sans-serif;
+	font-size: 24px;
+	padding: 10px 30px;
+	display: block;
+	margin: 40px auto;
+	border-radius: 20px;
+}
